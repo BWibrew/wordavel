@@ -1,0 +1,46 @@
+## Package manager vendor files ##
+/vendor
+/node_modules
+
+## IDE meta ##
+/.idea
+.phpstorm.meta.php
+
+## Compiled assets ##
+/public/css
+/public/js
+/public/fonts
+/public/images
+/public/mix-manifest.json
+/public/mix.js
+/public/hot
+npm-debug.log
+yarn-error.log
+
+## Online storage & config ##
+/public/storage
+/storage/*.key
+.env
+
+## Local development ##
+Homestead.yaml
+Homestead.json
+/_ide_helper.php
+/Vagrantfile
+/.vagrant
+/after.sh
+/aliases
+
+## Wordpress ##
+public/wp/cms/*
+!public/wp/cms/.gitkeep
+public/wp/app/plugins/*
+!public/wp/app/plugins/.gitkeep
+public/wp/app/mu-plugins/*
+!public/wp/app/mu-plugins/bedrock-autoloader.php
+!public/wp/app/mu-plugins/disallow-indexing.php
+!public/wp/app/mu-plugins/register-theme-directory.php
+!public/wp/app/mu-plugins/wp-password-bcrypt.php
+public/wp/app/upgrade
+public/wp/app/uploads/*
+!public/wp/app/uploads/.gitkeep
