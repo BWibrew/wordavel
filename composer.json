@@ -46,7 +46,7 @@
       "public/wp/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "public/wp/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "public/wp/core"
+    "wordpress-install-dir": "public/wp/cms"
   },
   "autoload": {
     "classmap": [
